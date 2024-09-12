@@ -164,6 +164,7 @@ img {
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
+  min-width: 169px;
   display: block;
   font-weight: 500;
   font-size: 16px;
@@ -173,7 +174,6 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   margin: 0 auto;
-
 }
 
 .order-service-btn:hover,
@@ -183,12 +183,26 @@ img {
 
 /* Our advantages */
 
+.advantages-section {
+  margin: 120px 0;
+}
+
+.advantages-list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.advantages-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .advantages-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .advantages-list-text {

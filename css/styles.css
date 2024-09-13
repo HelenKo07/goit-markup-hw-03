@@ -353,6 +353,11 @@ img {
   padding: 100px 0;
 }
 
+.logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-logo .footer-logo-part {
   display: inline-block;
   margin-bottom: 16px;

@@ -303,21 +303,15 @@ img {
   margin-bottom: 72px;
 }
 
-.box-one-part {
-  width: calc((100% - 48px) / 3);
+.portfolio-list {
   display: flex;
-  gap: 24px;
-  margin-bottom: 48px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
-.box-two-part {
+.portfolio-list-item {
   width: calc((100% - 48px) / 3);
-  display: flex;
-  gap: 24px;
-}
-
-.portfolio-item-img {
-  margin-bottom: 32px;
 }
 
 .portfolio-list-info {
@@ -326,10 +320,10 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
   padding: 32px 16px;
+  margin-bottom: 8px;
   width: 360px;
 }
 
